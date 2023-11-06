@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\misaj\source\repos\projekt\KnizniKatalog\KnizniKatalog\App.xaml
-11407045341
+7-234067265
 
-5-1608767520
-194101785492
-MainWindow.xaml;
+141950201430
+1992054026834
+AddKniha.xaml;AddUzivatel.xaml;EdditKniha.xaml;EdditUzivatel.xaml;MainWindow.xaml;WinKatalog.xaml;WinUzivazele.xaml;
 
-False
+True
 

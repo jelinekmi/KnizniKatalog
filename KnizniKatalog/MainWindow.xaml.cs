@@ -23,6 +23,26 @@ namespace KnizniKatalog
         public MainWindow()
         {
             InitializeComponent();
+
+        }
+
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void ButtonKatalog(object sender, RoutedEventArgs e)
+        {
+            Katalog Katalog = new Katalog();
+            Katalog.Show();
+            this.Close(); // Zavře stávající okno
+        }
+
+        private void ButtonUzivatele(object sender, RoutedEventArgs e)
+        {
+            WinUzivazele Uzivazele = new WinUzivazele();
+            Uzivazele.Show();
+            this.Close();
         }
     }
 }

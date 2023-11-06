@@ -5,8 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KnizniKatalog"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="Knižní katalog" Height="450" Width="800">
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Image HorizontalAlignment="Left" Height="473" VerticalAlignment="Top" Width="803" Source="/Alfons-Morales_knihovna.jpg"/>
+        <Label Content="Knižní Katalog" Margin="0,145,0,0" VerticalAlignment="Top" Width="343" Height="90" FontSize="48" FontFamily="Franklin Gothic Heavy" FontWeight="UltraBold" RenderTransformOrigin="0,0.5">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="white"/>
+                    <GradientStop Color="#FFFA0A0A" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <Button x:Name="buttK" Content="Katalog" Margin="0,227,0,0" VerticalAlignment="Top" Width="180" Height="42" Background="{x:Null}" FontSize="36" FontStyle="Italic" FontWeight="Bold" FontFamily="Franklin Gothic Demi" BorderBrush="{x:Null}" HorizontalAlignment="Center" Click="ButtonKatalog">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="white"/>
+                    <GradientStop Color="#FFE51010" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+        </Button>
+        <Button x:Name="buttUzivatele" Content="Uzivatele" Margin="312,293,0,0" VerticalAlignment="Top" Width="180" Height="42" Background="{x:Null}" FontSize="36" FontStyle="Italic" FontWeight="Bold" FontFamily="Franklin Gothic Demi" BorderBrush="{x:Null}" HorizontalAlignment="Left" Click="ButtonUzivatele">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="white"/>
+                    <GradientStop Color="#FFE51010" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+        </Button>
     </Grid>
 </Window>
