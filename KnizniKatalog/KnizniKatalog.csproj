@@ -20,4 +20,8 @@
     <Resource Include="Alfons-Morales_knihovna.jpg" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ModelView\" />
+  </ItemGroup>
+
 </Project>

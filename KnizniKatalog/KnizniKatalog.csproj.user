@@ -7,27 +7,45 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="AddKniha.xaml.cs">
+    <Compile Update="View\AddKniha.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="WinKatalog.xaml.cs">
+    <Compile Update="View\AddUzivatel.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="WinUzivazele.xaml.cs">
+    <Compile Update="View\EdditKniha.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\EdditUzivatel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Katalog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\WinUzivazele.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="AddKniha.xaml">
+    <Page Update="View\AddKniha.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="WinKatalog.xaml">
+    <Page Update="View\AddUzivatel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\EdditKniha.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\EdditUzivatel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Katalog.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="WinUzivazele.xaml">
+    <Page Update="View\WinUzivazele.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
